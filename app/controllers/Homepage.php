@@ -5,6 +5,6 @@ class Homepage
     public function index()
     {
         echo 'Dit is de homepage';
-        echo '<a href="http://mvc-2209a.org/country/getCountries/Arjan/deruijter">Link naar country</a>';
+        echo '<a href="http://mvc-oop-proeftoets.com/voetballers/getVoetballers/Arjan/deruijter">Link naar voetballers</a>';
     }
 }

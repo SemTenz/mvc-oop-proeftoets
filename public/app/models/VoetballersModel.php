@@ -1,6 +1,6 @@
 <?php
 
-class CountryModel
+class VoetballersModel
 {
     private $db;
 
@@ -9,11 +9,15 @@ class CountryModel
         $this->db = new Database();
     }
 
-    public function getCountries()
+    public function getVoetballers()
     {
         $sql = 'SELECT  Id
                        ,Name
-                FROM    Country';
+                       ,Club
+                       ,Age
+                       ,Natonality
+                       ,Salary
+                FROM    Voetballers';
 
         $this->db->query($sql);
 
