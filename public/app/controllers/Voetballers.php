@@ -26,12 +26,11 @@ class Voetballers extends BaseController
         $tableRows = "";
         foreach ($voetballers as $value) {
             $tableRows .= "<tr>
-                                <td>$value->Id</td>
-                                <td>$value->Name</td>
+                                <td>$value->Naam</td>
                                 <td>$value->Club</td>
-                                <td>$value->Age</td>
-                                <td>$value->Natonality</td>
-                                <td>$value->Salary</td>
+                                <td>$value->Leeftijd</td>
+                                <td>$value->Nationaliteit</td>
+                                <td>$value->Salaris</td>
                            </tr>";
         }
 

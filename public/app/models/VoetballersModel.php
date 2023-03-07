@@ -12,11 +12,11 @@ class VoetballersModel
     public function getVoetballers()
     {
         $sql = 'SELECT  Id
-                       ,Name
+                       ,Naam
                        ,Club
-                       ,Age
-                       ,Natonality
-                       ,Salary
+                       ,Leeftijd
+                       ,Nationaliteit
+                       ,Salaris
                 FROM    Voetballers';
 
         $this->db->query($sql);
